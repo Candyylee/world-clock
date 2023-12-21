@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(7, 7, 7, 0.541);
+  background-image: url(sky.jpeg);
+  background-size: cover;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  background: white;
+  border-radius: 10px;
+  width: 550px;
+  margin: 50px auto;
+  padding: 25px;
+}

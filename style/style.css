@@ -2,6 +2,7 @@ body {
   background-color: rgba(7, 7, 7, 0.541);
   background-image: url(sky.jpeg);
   background-size: cover;
+  background-repeat: none;
 }
 footer {
   text-align: center;

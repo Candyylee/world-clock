@@ -15,7 +15,6 @@ footer {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 4px 4px rgb(143, 136, 143);
 }
 
 .material-symbols-outlined {
@@ -44,20 +43,22 @@ h1 {
 .city-element {
   padding: 15px 20px;
   border-radius: 10px;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   margin: 10px;
 }
 .city {
   margin-bottom: 10px;
   font-size: 20px;
+  opacity: 0.6;
 }
 .time {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
 }
-.am-pm {
-  font-size: 15px;
+.time small {
+  font-size: 20px;
 }
+
 .date {
   font-size: 15px;
   opacity: 0.5;

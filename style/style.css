@@ -3,18 +3,64 @@ body {
   background-image: url(sky.jpeg);
   background-size: cover;
   background-repeat: none;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: rgb(147, 56, 231);
 }
 footer {
   text-align: center;
   font-size: 13px;
+  margin-top: 20px;
 }
 h1 {
   text-align: center;
 }
+.material-symbols-outlined {
+  font-size: 35px;
+}
 .container {
-  background: white;
-  border-radius: 10px;
-  width: 550px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  width: 500px;
   margin: 50px auto;
   padding: 25px;
+}
+.city-input-form {
+  font-size: 15px;
+  padding: 10px;
+  width: 95%;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(147, 56, 231);
+  background: rgba(255, 255, 255, 0.5);
+}
+.city-element {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: white;
+  margin: 10px;
+}
+.city {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.time {
+  font-size: 30px;
+  font-weight: 400;
+}
+.am-pm {
+  font-size: 15px;
+}
+.date {
+  font-size: 15px;
+  opacity: 0.5;
+}
+.time-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }

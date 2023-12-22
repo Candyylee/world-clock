@@ -5,17 +5,19 @@ body {
   background-repeat: none;
   font-family: "Roboto", sans-serif;
 }
-a {
-  color: rgb(147, 56, 231);
-}
+
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 20px;
+  opacity: 0.8;
 }
+
 h1 {
   text-align: center;
+  text-shadow: 2px 4px 4px rgb(143, 136, 143);
 }
+
 .material-symbols-outlined {
   font-size: 35px;
 }
@@ -25,6 +27,7 @@ h1 {
   width: 500px;
   margin: 50px auto;
   padding: 25px;
+  box-shadow: 10px 20px 20px rgb(112, 103, 112);
 }
 .city-input-form {
   font-size: 15px;

@@ -57,8 +57,13 @@ function showCity(event) {
             )}</div>
             <div class="date">${showDate.format("dddd, MMM DD, YYYY")}</div>
         </div>
-    </div>`;
+    </div>
+    <a class="homePage" href="index.html"> Go Back</a>
+    `;
   }
+  setInterval(() => {
+    showCity(event);
+  }, 1000);
 }
 
 updateTime();

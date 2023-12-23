@@ -51,7 +51,7 @@ h1 {
 }
 .city {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 20px;
   opacity: 0.6;
 }
 .newCity {
@@ -76,4 +76,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.homePage {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(147, 56, 231);
+  text-align: center;
 }

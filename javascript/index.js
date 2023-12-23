@@ -41,11 +41,14 @@ function updateTime() {
 
 function showCity(event) {
   let timeZone = event.target.value;
-  let cityName = timeZone.replace("_", " ").split("/")[1];
-
   if (timeZone.length > 0) {
+    if (timeZone === "current") {
+      timeZone = moment.tz.guess();
+    }
+    let cityName = timeZone.replace("_", " ").split("/")[1];
     let showDate = moment().tz(timeZone);
     let newCity = document.querySelector("#cityList");
+
     newCity.innerHTML = `<div class="new-city-element">
       <div class="newCity">${cityName}</div>
         <div class="time-details">
@@ -53,7 +56,7 @@ function showCity(event) {
               "hh:mm:ss [<small>] A[</small>]"
             )}</div>
             <div class="date">${showDate.format("dddd, MMM DD, YYYY")}</div>
-          </div>
+        </div>
     </div>`;
   }
 }
